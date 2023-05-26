@@ -5,10 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
-        
+        <!-- header -->
+        <div class="header">
+            <div class="logo">
+                <img src="bon.jpg" alt="Bon.jpg" >
+            </div>
+            <div class="pages">
+                <ul>
+                    <li>Our Hotel</li>
+                    <li>Rooms & Rates</li>
+                    <li>Facilities</li>
+                    <li>Contact Us</li>
+                    <li> <button type="submit"><i class="fa fa-search"></i></button> </li>
+                </ul>
+            </div>
+        </div>
+    <!-- availability -->
+        <div class="availability">
+            <select id="select-city">
+                <option value="" disabled selected>Select a City</option>
+            </select>  
+            <input type="text" placeholder="Check In" onfocus="this.type='date'">      
+            <input type="text" placeholder="Check Out" onfocus="this.type='date'">   
+            <button id="check-avail">Check Availability</button>
+        </div>
+    <!--welcome-->
+        <div class="welcome">
+            <div class="welcome-msg">
+                <h2>WELCOME TO BON HOTEL</h2>
+                <h4>Good people. Good thinking. Good feeling</h4>
+            </div>
+            <div class="explore-button">
+                <button>Explore</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    text-align: center;
+    padding: 20px 20px 10px;
+}
+.logo img{
+    height: 100px;
+    width: 120px;
+}
+.pages{
+    margin-top: 10px;
+    color: #957554;
+}
+.pages ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;   
+    font-weight: bold; 
+}
+.pages button{
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #957554;
+}
+.availability{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+.availability select,input,button{
+    padding: 15px 10px 15px;
+    margin: 0px 5px 0px;
+    border-radius: 10px;
+    color: gray;
+    min-width: 50px;
+    border: none;
+    
+}
+.availability button{
+    background-color: #DFAA5B;
+    color: white;
+}
+select#select-city::-ms-expand {
+    color:#DFAA5B /* Change arrow color */
+  }
+
+
+.welcome{
+    background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/f7/49/68/hotel-bon-voyage.jpg?w=1100&h=-1&s=1");
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome h2, h4{
+    color: white;
+    text-align: center;
+    
+}
+.welcome h2{
+    font-size: 80px;
+}
+.welcome h4{
+    font-size: 20px;
+}
+
+.explore-button{
+    margin-top: 40px;
+ 
+}
+.explore-button button{
+    font-size: 17px;
+    padding: 17px 90px 17px;
+    background-color: #DFAA5B;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.explore-button button:hover{
+    color: #DFAA5B;
+    background-color: white;
+}
+
+
