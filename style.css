@@ -4,18 +4,27 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.header{
+.header {
     text-align: center;
-    padding: 3px 20px 10px;
+  }
+  
+.logo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo img{
+    
     height: 100px;
     width: 120px;
 }
-.pages{
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     color: #957554;
-}
+  }
 .pages ul li{
     list-style-type: none;
     display: inline;
@@ -54,7 +63,9 @@ select#select-city::-ms-expand {
 .welcome{
     background-image:url("hotelbg.png") ;  
     background-size: cover;
-    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -101,6 +112,7 @@ select#select-city::-ms-expand {
     bottom: 80px;
     border: none;
     border-radius: 10px;
+    text-align: center;
 }
 h3{
     text-align: center;
@@ -173,7 +185,65 @@ h3{
     top: 140px;
 }
 .item button:hover{
+    color: #DFAA5B;
+    background-color: white;
+}
+.book{
+    margin-top: 40px;
+    text-align: center;
+}
+.book button{
+    margin: 30px;
+    background-color: #DFAA5B;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 180px 20px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.book button:hover{
+    color: #DFAA5B;
+    background-color: rgb(236, 236, 236);
+}
 
+.footer{
+    margin-top: 50px;
+    background-color: #111111;
+    min-height: 290px;
+    color: white;
+    font-size: 17px;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column{
+    padding: 60px 00px 80px;
+}
+.contact{
+    margin-top: 70px;
+}
+.footer-column li{
+    list-style-type: none;
+    padding: 10px;  
+}
+.footer-column h4{
+    font-size: 23px;
+}
+.footer-column input{
+    margin: 25px 0px 25px;
+}
+.footer-column input,button{
+    width: 200px;
+}
+.footer-column button{
+    background-color: #DFAA5B;
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.footer-column button:hover{
     color: #DFAA5B;
     background-color: white;
 }
