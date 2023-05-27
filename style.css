@@ -91,7 +91,6 @@ select#select-city::-ms-expand {
 }
 .explore-button button{
     font-size: 17px;
-    padding: 17px 90px 17px;
     background-color: #DFAA5B;
     color: white;
     font-weight: bold;
@@ -198,7 +197,7 @@ h3{
     color: white;
     font-size: 15px;
     font-weight: bold;
-    padding: 20px 180px 20px;
+    padding: 20px 50px 20px;
     transition: all 0.4s;
     cursor: pointer;
 }
